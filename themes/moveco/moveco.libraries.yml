@@ -1,0 +1,9 @@
+style:
+  css:
+    theme:
+      css/bootstrap.min.css: {}
+      css/main.css: {}
+      css/animations.css: {}
+      css/fonts.css: {}
+      css/google.css: {}
+      css/core.css: {}

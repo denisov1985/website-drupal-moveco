@@ -1,0 +1,16 @@
+name: Moveco
+type: theme
+description: This is my first theme.
+package: Custom
+core: 8.x
+libraries:
+  - moveco/style
+regions:
+  header: My Header
+  menu: Main Menu
+  logo: Website Logo
+  content: Content
+  content_sidebar_left: Content Sidebar Left
+  contact_phone: Contact Phone
+  contact_address: Contact Address
+  contact_mail: Contact Mail

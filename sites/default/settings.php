@@ -789,9 +789,9 @@ $settings['entity_update_batch_size'] = 50;
  * Keep this code block at the end of this file to take full effect.
  */
 #
-# if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
-#   include $app_root . '/' . $site_path . '/settings.local.php';
-# }
+if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
+  include $app_root . '/' . $site_path . '/settings.local.php';
+}
 $databases['default']['default'] = array (
   'database' => 'drupal',
   'username' => 'root',
@@ -804,3 +804,4 @@ $databases['default']['default'] = array (
 );
 $settings['install_profile'] = 'standard';
 $config_directories['sync'] = 'sites/default/files/config_QoEuIGPlO8lHgjjOgypcj1gPVs2Dx5JK4OhXbtHg08lmpaN4qTRHIERNuSHHinQThMJr-8iUiA/sync';
+
